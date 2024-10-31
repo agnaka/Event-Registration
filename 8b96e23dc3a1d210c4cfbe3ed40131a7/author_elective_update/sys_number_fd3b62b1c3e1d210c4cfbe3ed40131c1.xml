@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_1558190_event_1_registration">x_1558190_event_1_registration</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix/>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:10:27</sys_created_on>
+        <sys_id>fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_update_name>sys_number_fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:13:17</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</application>
+        <file_path/>
+        <instance_id>a0f898151bc98690168f4089bd4bcb0a</instance_id>
+        <instance_name>dev244076</instance_name>
+        <name>sys_number_fd3b62b1c3e1d210c4cfbe3ed40131c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_1558190_event_1_registration">x_1558190_event_1_registration</category><maximum_digits>7</maximum_digits><number>1000</number><prefix/><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-30 13:10:27</sys_created_on><sys_id>fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_id><sys_mod_count>1</sys_mod_count><sys_name/><sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package><sys_policy/><sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope><sys_update_name>sys_number_fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-30 13:13:17</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-2051106204</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>cf96e23dc3a1d210c4cfbe3ed40131ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:13:19</sys_created_on>
+        <sys_id>4ceb6635c3e1d210c4cfbe3ed4013168</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192dd8f28210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:13:19</sys_updated_on>
+        <type>Number</type>
+        <update_guid>00eb663513e1d2102fe8ea1e878d1568</update_guid>
+        <update_guid_history>00eb663513e1d2102fe8ea1e878d1568:-2051106204,8a3ba6f189e1d210e612c1d8bb40391b:-819444763</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-30 13:17:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>457921da935d46a0ba23b60767873710</sys_id>
+        <sys_metadata>fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package>
+        <sys_parent display_value="">5598eebdc3a1d210c4cfbe3ed4013196</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_scope_delete display_value="">184dfe4f344a48b0948f52203877ba10</sys_scope_delete>
+        <sys_update_name>sys_number_fd3b62b1c3e1d210c4cfbe3ed40131c1</sys_update_name>
+        <sys_update_version display_value="sys_number_fd3b62b1c3e1d210c4cfbe3ed40131c1">4ceb6635c3e1d210c4cfbe3ed4013168</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-30 13:17:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>Usuários com permissão para solicitar a inscrição/registro em eventos</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1558190_event_1.requesters</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>requesters</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 11:59:18</sys_created_on>
+        <sys_id>2d846382c32d1610c4cfbe3ed401314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1558190_event_1.requesters</sys_name>
+        <sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_update_name>sys_user_role_2d846382c32d1610c4cfbe3ed401314a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 11:59:18</sys_updated_on>
+    </sys_user_role>
+</record_update>

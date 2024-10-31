@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-31 15:45:03</sys_created_on>
+        <sys_id>1128545ac3215610c4cfbe3ed40131e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1558190_event_1_registration.x_1558190_event_1.requesters</sys_name>
+        <sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_security_acl display_value="x_1558190_event_1_registration">5c6d6eb5c3e1d210c4cfbe3ed401312e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_1128545ac3215610c4cfbe3ed40131e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-31 17:27:10</sys_updated_on>
+        <sys_user_role display_value="x_1558190_event_1.requesters" name="x_1558190_event_1.requesters">2d846382c32d1610c4cfbe3ed401314a</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
