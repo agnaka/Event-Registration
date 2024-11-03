@@ -16,7 +16,7 @@ inscrição/registro em um evento.</description>
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>registration</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Registration Record","reference":"x_1558190_event_1_registration","reference_display":"Registration","type":"reference","base_type":"reference","usedInstances":{"0f9d0cd7-c056-4978-a4dd-49fa733c0e7c":["record"],"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60":["record"],"2084c92c-ef43-495a-a008-abd174ab5b21":["record"]},"attributes":{}},{"name":"0f9d0cd7-c056-4978-a4dd-49fa733c0e7c.record.assignment_group","label":"1 - Update Record➛x_1558190_event_1_registration Record➛Assignment group","reference":"sys_user_group","reference_display":"Assignment group","type":"reference","base_type":"reference","parent_table_name":"x_1558190_event_1_registration","column_name":"assignment_group","usedInstances":{"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60":["approval_conditions"]}},{"name":"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.full_name","label":"Trigger - Record Created➛Registration Record➛Full Name","reference":"","reference_display":"Full Name","type":"string","base_type":"string","parent_table_name":"x_1558190_event_1_registration","column_name":"full_name","usedInstances":{}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1558190_event_1_registration","column_name":"email","usedInstances":{"2084c92c-ef43-495a-a008-abd174ab5b21":["ah_to"]}}]</label_cache>
+        <label_cache>[{"name":"0f9d0cd7-c056-4978-a4dd-49fa733c0e7c.record","label":"1 - Update Record➛x_1558190_event_1_registration Record","reference":"x_1558190_event_1_registration","reference_display":"Registration","type":"reference","base_type":"reference","usedInstances":{"d80409f0-8921-4029-a6a5-c580242b9594":["record"],"f511c7c1-63b3-40bd-8c6c-1f2a61f9fc40":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Registration Record","reference":"x_1558190_event_1_registration","reference_display":"Registration","type":"reference","base_type":"reference","usedInstances":{"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60":["record"],"2084c92c-ef43-495a-a008-abd174ab5b21":["record"],"99c4df30-bdcc-434f-914f-36d9f57a82d3":["record"],"980e0922-4ee7-4508-8600-892ad34e1bd4":["record"],"a96c7ffd-e2d8-42f5-b42b-269da9c2e607":["record"],"0f9d0cd7-c056-4978-a4dd-49fa733c0e7c":["record"],"a38e2bb4-5fe9-4be9-8ece-9b3a350345c4":["record"],"d80409f0-8921-4029-a6a5-c580242b9594":["record"],"f511c7c1-63b3-40bd-8c6c-1f2a61f9fc40":["record"]},"attributes":{}},{"name":"0f9d0cd7-c056-4978-a4dd-49fa733c0e7c.record.assignment_group","label":"1 - Update Record➛x_1558190_event_1_registration Record➛Assignment group","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_1558190_event_1_registration","column_name":"assignment_group","usedInstances":{"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60":["approval_conditions"]}},{"name":"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60.approval_state","label":"3 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"usedInstances":{"0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c":["condition"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.full_name","label":"Trigger - Record Created➛Registration Record➛Full Name","reference":"","reference_display":"Full Name","type":"string","base_type":"string","parent_table_name":"x_1558190_event_1_registration","column_name":"full_name","usedInstances":{}},{"name":"Created_1.current.email","label":"Trigger - Record Created➛Registration Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_1558190_event_1_registration","column_name":"email","usedInstances":{"2084c92c-ef43-495a-a008-abd174ab5b21":["ah_to"],"99c4df30-bdcc-434f-914f-36d9f57a82d3":["ah_to"]}},{"name":"Created_1.current.sys_id","label":"Trigger - Record Created➛Registration Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1558190_event_1_registration","column_name":"sys_id","usedInstances":{}},{"name":"e5bff89c-5566-4afd-94df-4aa888483189.Record.seats","label":"6 - Look Up Record➛Event Record➛Available Seats","reference":"","reference_display":"Available Seats","type":"integer","base_type":"integer","parent_table_name":"x_1558190_event_1_event","column_name":"seats","usedInstances":{"980e0922-4ee7-4508-8600-892ad34e1bd4":["seats"]}},{"name":"Created_1.current.event","label":"Trigger - Record Created➛Registration Record➛Event","reference":"x_1558190_event_1_event","reference_display":"Event","type":"reference","base_type":"reference","parent_table_name":"x_1558190_event_1_registration","column_name":"event","usedInstances":{"980e0922-4ee7-4508-8600-892ad34e1bd4":["record"]}},{"name":"Created_1.current.event.sys_id","label":"Trigger - Record Created➛Registration Record➛Event➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1558190_event_1_event","column_name":"sys_id","usedInstances":{"e5bff89c-5566-4afd-94df-4aa888483189":["conditions"]}},{"name":"Created_1.current.assigned_to","label":"Trigger - Record Created➛Registration Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_1558190_event_1_registration","column_name":"assigned_to","usedInstances":{"5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60":["approval_conditions"]}}]</label_cache>
         <master_snapshot>2257d562c3a99610c4cfbe3ed401314e</master_snapshot>
         <master_snapshot_digest/>
         <name>Registration</name>
@@ -37,7 +37,7 @@ inscrição/registro em um evento.</description>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>185519aec3699610c4cfbe3ed40131e0</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Registration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Event Registration" source="x_1558190_event_1">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_package>
@@ -45,7 +45,7 @@ inscrição/registro em um evento.</description>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_update_name>sys_hub_flow_185519aec3699610c4cfbe3ed40131e0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
+        <sys_updated_on>2024-11-01 21:18:16</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -295,7 +295,117 @@ inscrição/registro em um evento.</description>
         <trigger_outputs/>
         <trigger_type>record_create</trigger_type>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=185519aec3699610c4cfbe3ed40131e0^sys_idNOT IN82361deec3699610c4cfbe3ed4013104,b480296ec3a99610c4cfbe3ed40131ad,bc80296ec3a99610c4cfbe3ed40131ac,f880296ec3a99610c4cfbe3ed40131aa"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=185519aec3699610c4cfbe3ed40131e0^sys_idNOT IN0561deaac3ad9610c4cfbe3ed4013191,4333a6a2c321d610c4cfbe3ed401315d,49f1aa22c321d610c4cfbe3ed40131d9,85f1aa22c321d610c4cfbe3ed40131da,8df1aa22c321d610c4cfbe3ed40131dc,9aebaaaec321d610c4cfbe3ed40131f5,bc80296ec3a99610c4cfbe3ed40131ac,c561deaac3ad9610c4cfbe3ed4013190,f880296ec3a99610c4cfbe3ed40131aa"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 19:13:03</sys_created_on>
+        <sys_id>0561deaac3ad9610c4cfbe3ed4013191</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 21:12:24</sys_updated_on>
+        <ui_id>d80409f0-8921-4029-a6a5-c580242b9594</ui_id>
+        <values>H4sIAAAAAAAA/+1UTW8aMRD9K8jn1WrNAgJuVRBSDk2ktMoljSyvPYAl70dtL4Ei/nvH3l1CSJsglB4qxTfPx5v3xk9+2BElyZQMQCZ0QkcipWnaT5L+eECzUZrRvkw5ACURKXgOWGlAlEbifc117QO73ZUB7kAyGovaGCjcfo95qWyl+fa+LcOIWCktMU+mD48RqbhBRAeGTHcnKbetgGmegcbGWSnqHEF71zPEOJdt133X0T2l72fgXbboTPkgpjwfmkQENg4KCThuwbWFiOS8kNyVZkumztQYQNXyttDbQ8VKFa5RmvONVb8Qf5D4ugWgNHHYQqkE3FZOlUUTcTzTXbLUdV7cNFz9EmHBa+2OllhbYBIqz81Pa6gsvq3Kp7tuzlwVQUZLS5eC68ONO2dUVjuwfu+gIajPeVWpYskqU65VaEYqebzUeIkXunzCmVYti5gLzzvGTfB4jvFZCN9zo7yIrwiDzfsgmv2s/dxGRkuYBc1BMAsvgqVWGFW5Lwi8hpbmPmp9mQ3femkxeX7YI8xnb24YHQ7HdJIwWPvplBlYKusMD9t/ZdJ36y+z8HfPrXfTcDtX14vmv+hsTfwi1np4+GEeHv9rD7ej/zMTv2fdpP/mJ3X0pMGt9si21uF/+qNOklROXpv0JHuhJSFHTAe9BjU6m3MHMFegpf2DiM6T7QC2bgcc/tYPMyYdJeF8frGXfLGPvwFn5h1l/AcAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:31:01</sys_created_on>
+        <sys_id>4333a6a2c321d610c4cfbe3ed401315d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:47:57</sys_updated_on>
+        <ui_id>a96c7ffd-e2d8-42f5-b42b-269da9c2e607</ui_id>
+        <values>H4sIAAAAAAAA/+VX227bOBD9lULPpitKlEzlrbAdNECbLBxvF4uiEChyaBOQJVcXN94g/76kLNuSbzESJ9hFHznkDM/MnMORvj9aSlhXFgk4UEYw7WHHtrHt+y5nOIpcn0d2BMTqWAmbgT6ZAU8zodcLFpfG8PjYz4AVIELc5WWWQVI8Pel9ofJ5zJbf6mPawqcqFnrfuvr+o2PNWaYjFpBZV487W8VyDmHMIoi14yDl5UwH/XAz0DHORbv2Hq3h7sI3d+i1qKOHyhj1lsGDOxY8FJAI0LdJFufQsWYsEaxIs6V1VWSlNuikxV0SLzcnpiopVonO2EOu/tHhXceck6Az45sipIrD3bxQabKyFCyK15tpXM6S2xVUU0OQrIyLRg3LHEIBc4PN3LaCIu+n6a/R+p5rlVRZ1LDilLN4s2JFkamoLCA3ZS/V+FAZVuYvBxsgVax7Flagwzwtsyqx0bB/NxqEf30a9z8PR+FoeD8e3fTHQ+MBMVShZ2w+V8kknGfpQlUIdb6z7iTWi66M0186sVxNki7jpjhdXW7Wvdb2QWX+xjJlLv2qw2hng/LPRP0s4aaihJTYxb6PMLZdRHDko4CCh2zwGPEc4nu+Yz1V3Qh/lqYgq/rWlQyrZqySqpiij+Y8U/PikwazgLp+T521XryTDGRbwjVibjXzEGLPoziwQ1iY23GYwUTlRcYqWuyJ59nzL5PW2GD7cLvCdm5eLecjedbiatlqbTmntVVbzhEXtd9YXPXVr1dXqw5tcbVbkIcr0tWgq6jvpSAH04CSyEVuRDxEAikRtSlBBJjNPUf0CObPKuhZ3Zx+ueWWTzxNhDJZ5A3dsNzkoUdNkd7c396Nh1//GP+9L5djx16mkn4TyblZHHQ+lFotlZatlop7qTFEbPuttXKpQdSqQ1sqrVK+iyRAUD/ybIpAUoqI26MowI6DfJ8JjAkX0r7kULHFKVrJxkdYoWaQlkUoYzZpyMPel8L6CXnhgNBd/XhdhzgX49p5mFRvW431KPhaAFGaxsCSLfvJxQYF+d8Mim0RdqZEsw/vQn3OGdXPPkOBywERP+KISi6RC5EnXS+iUc9+9TTgp8kU7HNGlJtPnsW2HRf71dhGPxffAdfjkGuqVx1q2mvGe78h4/dqsfPvsd14K9pPtd+ALXPTMi2zfSEAZj0vMr8TDBEnwIgFxEGBDz0gkvouC14tBIpPEk3usyrnUxBlDG8jhE1L10o4A+Da936L7DjmWglZ455aBP4F/w92v3r4LGmC+I9KolmUthqabXmfKeA42BXAERb6K4g4voOoS3qoF9DIJrrxkQsvJv+PfwEE3nTlfRIAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>49f1aa22c321d610c4cfbe3ed40131d9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:47:57</sys_updated_on>
+        <ui_id>e5bff89c-5566-4afd-94df-4aa888483189</ui_id>
+        <values>H4sIAAAAAAAA/9VY72/aPBD+V6J8piwhQKDfXrVCmrSt0tbtS9/KcmKnWDN2Zju0FPG/7xwnQPmZUip1n1DsO99zd889cbib+4z4lz4ZBsNsOOwN4iCIoiDo96MUh0kS9dMkSHDXb/kCTyhYGpxwCo9TzAv7/ITCXm8QDgNEp1QYFLpfsCBM5xzPfh01TMeME0WFf3l33/JzrCCSocq/nG9smVlOEccJ5XDerQXifbOoWo2TeOG8nZQNUD8i4Y6WilgsQcunT4YKQiFUhrmmLX+CBcFGqtlyRVFMbgRfLYwZpHjp+9b4SbNnOH4QWLuMQlopdXvpWLKU3uSGSeFWHCK3KXkxEd8cUltXmuGCm7qusFJoigjNLTgbrQqd/RjLx+91oBETZR7VJpcp5ssnbIxiSWGotkWnnE5shyY4z5l4QLmSU1Y6A5ZJ+4HDQzvj8hGCavYg2ji1wNtQC9wewfp1ufwLK2az+ArHgDMAYhzailx1tSxUmf4UpbzQ5YbCQruz/EVZI/SnsChd1lV+yJUIDHSqWG7+A4cprVJZtGpC9w5yYbjqfSoFYTamXmO1nmnEyP8FOJP5/AraaihBYTstFFTTtEvqtp3VYrFN9lf7nzYDV+vYm+a903lXMappeLFWTUN4tmnoBsF7z4NRxccbh2MEdwkfYXlIDnabrBqrpTLIVW6N5tvEPZmKI0Y5eSHHDcDVzjeWVV4y24e3YmJmY2zocuff0eUPyUMARJArLBOcifL9B0DPQ9DeQQ4k4UbDyz6vqbBdwzrdpin2jPSeT9fNsq81URuArB1/ACLv1qHcAbxWzPr4iqPR2TgadfZwFBhyN1/CXJZnRyXr+4ztUW3/bO3xpj3QaM0hXNwvOX51WszwtTE7NubGEEavmsJ1Crmd6z1MOvMlas9Utd5zjMfgWsVDbirRIyMP1Kyi11ZEmkfMf+/ar0ZtOSxlem++kIUHL+fJ2oWMZWgCfWI53BIVTYEKGmFFUSYLQVB1P1zRxvYtY0qbynhbLL5TUyjhSZgtz4ypV1p7S+tzSEiD7GrHz5lXp1dh0B6k55Xpecv0XleMPcLTPeM1rZHwjDDjZY3hQp+vNYkqJdUe8TnSngN9bqhMDUGFZwX1dunaReydEnYE6z/xdfhWeUkpTrod3I+jMAyCMCBxMIjjcNBPsj6Ou9lqohDSIgX9g5MzIAYcj2oi1F0NtjXEieDJ/1WAuH4aVUc0xVs7X0thPyQ7sfEsYOizVwM+nlIlDImUnGKxomfv/ZXho/ydUbDbzSK4pS+7uvNer+eC/RTsT0E/2+4PaNAZhCS9GMRhfNHNSP9iSHDvAg+TXhwRmnaz09+4938BlwAWg9UTAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>85f1aa22c321d610c4cfbe3ed40131da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:31:01</sys_updated_on>
+        <ui_id>980e0922-4ee7-4508-8600-892ad34e1bd4</ui_id>
+        <values>H4sIAAAAAAAA/+1UTW8aMRD9K2jPy8pmPwrcqiKkHppIaZVLGllee5ZY8n7U6yVQxH/veD8ISZMUIXqoVA4gj2fevDd+zN3OU9KbexFIQmc0ESENwwkhk2lE0yRM6USGHIB6vlfwHDDTgCiNxPOa68YFdrtPBrgFyWggGmOgsAGs8Xu/xyyp6krz7W2fjBHxoLTELG9+d+97FTeIa8F4892LK7utgGmegsbCRSmaHEFHnxeIcSrnofpmIP1ShOuBZ9mjM+WCeOX4UOJ7sLFQSMB2Gdc1+F7OC8ltabbe3JoGA6hdXhd6e8h4UIXtlOZ8U6ufiB8Rl5cBShOHKZRKwHVlVVl0EctTPVyWusmLq46rGyJkvNH2aIhNDUxC5bi5bh2V7OtD+Xgz9FmqopXR09Kl4Ppw4tYalTYWajd30NCqz3lVqWLFKlOuVVuMVPJgpfEQZLp8xJ61WhUBF453gJPgwRLjizZ8y41yIr4gDBbvW9HsR+P6djJ6wqzV3Apm7Ytgai2MquxHBF5DT3Pv9+5M4/deWsyeHvYI88mhG0bjeEpnhLW+ZLT7/d2dbyeeZ9pvjs3oqmNzqpJnxW8o6237LNa7Nr6Ya6d/27V963/Mtn8yK5m8u5aOnrT1Z31k1Br3aP29ISSUu10mmTW8qLPS5PMsFUmcSDGG6EM0jkKRjNMsg3HM+WxCQ0pIGr22by+AeKb1IUceFkYdE//k2QwASwVa1q8Ma/B+34Ct+waHrX2xPwBNSPv5v7zPWd73vwDKpy90XAgAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>eceed59d-086e-4e15-891a-f1859695c118</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>8df1aa22c321d610c4cfbe3ed40131dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 21:12:24</sys_updated_on>
+        <ui_id>f511c7c1-63b3-40bd-8c6c-1f2a61f9fc40</ui_id>
+        <values>H4sIAAAAAAAA/+1Uy24aMRT9FeT1aGQzgIBdFYSURRMprbJJI8tjX8CS51HbQ6CIf+/1PAghbYJQuqgU73wf555zfeSHHdGKTMkAFGUTNpIJS5I+pf3xgKWjJGV9lQgARiKSiwyw0oIsrML7WpgqBHa7KwvCg+IslpW1kPv9HvNKu9KI7X1bhhG50kZhnkwfHiNSCouIHiyZ7k5SflsCNyIFg42zQlYZgvauZ4hxLtuu+66je0o/zMC7atG5DkFMBT6MRgQ2HnIFOG4hjIOIZCJXwhd2S6beVhhA1eo2N9tDxUrnvlGaiY3TvxB/QEPdAlCaPGyh0BJuS6+LvIl4kZouWZgqy28armGJsBCV8UdLrBxwBWXgFqY1VBbfVsXTXTdnrvNaRkvLFFKYw014b3VaeXBh72CgVp+JstT5kpe2WOu6Galk8dLgJV6Y4glnOr3MYyED7xg3IeI5xmd1+F5YHUR8RRhs3tei+c8qzG1ktIR5rbkWzOsXwVInrS79FwReQ0tzH7W+TIdvvbScPD/sEeazNzecDYdjNqEc1mE64xaW2nkr6u2/Mum79ZdZ+Hvg1rtpuJ2r60XzX3S2Jn4Raz08/DAPj/+1h9vR/5mJ37Mu7b/5SR09ae1Wd2Rb5/E//VFRmihGX7v0NH2hKSFDUA+9BjY6m3UHMNdglPuDjM6V7QC+bgccftcPsyYb0fp8frKXfLKPvwHM89Zc/gcAAA==</values>
+    </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
@@ -309,18 +419,18 @@ inscrição/registro em um evento.</description>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-01 14:54:31</sys_created_on>
-        <sys_id>82361deec3699610c4cfbe3ed4013104</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2024-11-01 21:08:55</sys_created_on>
+        <sys_id>9aebaaaec321d610c4cfbe3ed40131f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
-        <ui_id>0f9d0cd7-c056-4978-a4dd-49fa733c0e7c</ui_id>
+        <sys_updated_on>2024-11-01 21:11:05</sys_updated_on>
+        <ui_id>c9d04de1-9717-4a80-92ce-3b69945f4936</ui_id>
         <values>H4sIAAAAAAAA/+1VXWvbMBT9K0XPxlh2kiV5KwsZe1gL3ehLU4wsXScC+WOSnCYL+e+7ku007bo2hA42mN90P8+598i62xEpyJQMQER0Qkc8oUkSR1E8HtBslGQ0FgkDoCQgJSsAIzXwSgs8r5lqnGG3+6iBWRApDXmjNZR2v0e/kKZWbHvbhaGFr6QS6CfTu/uA1ExjRQuaTHfPXHZbQ6pYBgoTZxVvCix68XmGNU5F22ff9HCfw3c98Cy66ql0RnQ5PDQKCGwslAKwXc6UgYAUrBTMVnpLplY3aEDW4rpU20PESpa2ZVqwjZE/sP4gcnE5IDV+mEIlOVzXVlZla7EsU72zUk1RXrVY3RAhZ42yR0NsDKQCaofNdWuh5F9X1cNN32cuS0+jg6UqztThxKzVMmssGDd3UODZF6yuZblMa12tpU9GKEW4VHgIc1U9YE8jl2XIuMMd4iRYOEf7zJtvmZaOxBcsg8l7Tzr93ri+LY0OcOo5e8Kp3wiGGq5lbS+x8Bo6mPug02U2fG3TfPK42KOaj9rcpHQ4HNNJlMLadaephqU0VjM//V9E+mb8eRL+5rBdXLXYTuX1JPk3PDsRP7F1Gh6+m4bHf1rDXet/TMRvSTeKX/1JHa3Uq9UcyZYZh8dzWuqqqRdNFCVit+jluiDTBfkEBjcJZkGCRZvpzR8mfBjnPOZJLOiIRnzA8wwSEIOIJgjAh5utwR/eifEv/Mz/PoBnXkwoEK6Fi5ZYcPLm+gJzCUqYF1bZ38yuQbruGhxemHe7nnQU+e//Q3POQ3P/E4mJJVUCCQAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
-        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -332,13 +442,13 @@ inscrição/registro em um evento.</description>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-01 15:39:30</sys_created_on>
-        <sys_id>b480296ec3a99610c4cfbe3ed40131ad</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_id>bc80296ec3a99610c4cfbe3ed40131ac</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
-        <ui_id>a78deb01-216d-48d9-9bad-f4a3538cb963</ui_id>
-        <values>H4sIAAAAAAAA/9VY207jMBD9lSjPpes0bdPytgJVQtpdpL29sMhyYoda69pZx4EFxL/vOM6llF4CtCt4w5eZOTNzfDL04t7n1D/26RRN0+l0NIkQCkOExuMwIUEch+MkRjEZ+j1fkgWDm4bEgsHymojCruFPyvNMkNuf7U4y54JqJv3ji8uenxENtoZp//h+5cjcZgwLEjMBht+ta++LjdPrDOuR8VOYNkC9xNK5VppaLKjns7+GScogVEpEznr+gkhKjNK3zY5mhJ5L0W7MuTQuywX5m/M7cD9B9l7KIK2kqYDiCTvPDFfS7ThE7lCJYiG/OKS2gCwlhTBLBSxyhinLLDgbrQqdfpurm691oBmXZR7VoVAJEc2KGKN5XBiW26IzwRbgCC9IlnF5hTOtrnlpDFgW/SsBi34q1A0EzfmV7JPEAu9DLUh/Bvun5fZPornN4jO4AWMAxAW0Fbvq5qrQZfrXOBFFXh5oInPny38oa4T/FBaly7rKD7sSwYU80TwzH8HgmlWpPPRqio62cmHa9j5RknIbMz8MT0+W/XfFttZ4HeCKsY/2KsYGe2PsEKFDc9bo4u1RdhcJXcI7mBjQrd2mbWNzpQ12lTsMFWecCfpIMjuAq43PLau8+HYT3oqJqY2xop2D96Odr+RhSrErAJeCy/JbAg4hzBsm6GgrB+JgpeFln1t6lnskT57SlHhGeXcv182yrzVRO4CsDb8BIu+7Q7kGeK2YtfuKo+HeOBoONnAUGHJx38BsyrOmkvXMYXtU37+z98nqfWDLkkHwcNlw/ORlMYPnxhzYmCuPMHzWK1ymkDs53cCkPQ86//m19mzAOZhW8bB7lfiG0ytm2uj1LarMDRG/151XT615LGV6rx6agq0DdLw0NPEUL6BPPINJTrMEqJBjohlOVSEprma4lja2bynXuakuPxWLr8wUWnoK3pZn5swrb3vN7X1ISIfsasOz1KvTqzDkHqTnlel5TXrPK8YG4RnucUzrJDwzwkVZYxi6s6UmMa2V3iA+O9qzpc8dlakjqGCvoF4vXeuIvVbCdmB9F//BvVZeEkbi4YCMozAIEAoQjdAkioLJOE7HJBqm7YvCOJcJ6B94ToEY4B7XRKi7ip5qiBPBF/+eAOL6YVa56Iq3Nj5V8leB0CAyngUMffZqwLtTqoQhVkowIlt6jg6vDG/lJ4eC24Ht07pWHOpb7EI+qnvBf0j+p2BntvsThgaTgCZHkyiIjoYpHR9NKRkdkWk8ikLKkmH68i/u5T+NU3fASxMAAA==</values>
+        <sys_updated_on>2024-11-01 20:31:01</sys_updated_on>
+        <ui_id>2084c92c-ef43-495a-a008-abd174ab5b21</ui_id>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FULPXke+23nLJgi2wLYFEqP70BQCRVI2t5Sopag43sD/vkORsqwokQ07vSyaR15meM7MOaTsz48ep965N6RTfxxGQzzxB/2B70/7s1k4mEX+dDLze4R6HS/BMYOdihGpzPgei9xMPD5eKoY1o0GvS3KlWKI3G1inPEsFXn9y22CGLLmgsO6df/7S8VKsIKNmyjt/fLKk1ykLBA6ZgMArSfIYkqJ3V5DjULRl9ByrBdPopkT9lIU5CsbUHRJwMwlLBpbf8diDZgllcGiERcY6XowTirVU6+0MkKcfE1FNLHmiIeVFlknCoTAZ0kuGWIy5QCuulwgje3zXM/keMv4vQBj0TaqIQRGIQcQTwikgKuomOWEfU81lYiupcSjKokqRx8kHS8uUnUU4F3qn7HnGAspSw8MA0yoHkNHtUq5uyvOueVIwdgyEJFhsR1hrxcMciBSdEgyrKl9QQDI54SQmWFHEGKcpTxZBquQ9LxIDzLi7EDDoRkKuID7ji6SLieHUhYri7jXMXxXTn7DihuB7SAPBm6IwwT+5wWQp1g83e4OisbA1I4qn+gIS3zNHYdNxKu/N2nRDh5U+dnJWSn8IeqPRtDfzA3ZvTu8Fii14phUuOtOQ/N79xxlibrChDxbbobxqwS/wdF6ozTkr9E6ywhz0r60RrfKRdjC28p/6dfm/uuwdoqN1/220DQ3MAitZx604fK/m9yndH4/DcByOJoNKETMS0UkYjfGEDCoFrOCGUjFWX4PihtqRe6+paOfzI3ULwWfXBb3OwSjL4HcJETll6K8SbhsDJ+RQSriskkrF/ZNUbJWItETQO7GGa3x7spmsLnm9xBrxDGXQri6aS8Qd+J2IDlrLHMV5pmGbhpWaP2ovw/B1reF66Gavnm3w/8I7p3pk1H5r4kpheBlo2f7J0y1av9mgpmn27D7OTLdQ32RRGukAKlsXyiYv55eszOnsMmi3i/2QaLhl50r3f9VLnTLBY1500VrqVK3S1gYzv9ZTQna0+opf4nXNHQCpDLy8bOJ7QXPD467oN9F9A9H1Wn9msXGtqeH3Ud0BmMrA35/ILmzT3ehNdz+N7kbtPSa1rmZ5+Dcjekd7N/ZHlkQXhiGmsinG57a8yju8H/k2cIv7OS4vqHT89iL/kE9F3NrXqF+/ZyRd78jxLvf9AUmRQfib5sk6JkxJqUMow9dikd55d3Ybu8QgSig6DqUCWaqOjQ4VOrMbno5vWY5UqeZEouKfBokiyeFXitW2DTlLbUDTDA7gdwRwnNX+mL//szTaAQ3ZPgO2HY3+OIstdSwqg01OfAbGo9Fg/EtaDPq4on2qZJo6bie9BV/+A85u/KqaFgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
@@ -349,18 +459,18 @@ inscrição/registro em um evento.</description>
         <display_text/>
         <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
         <generation_source/>
-        <order>4</order>
-        <parent_ui_id>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</parent_ui_id>
+        <order>10</order>
+        <parent_ui_id>eceed59d-086e-4e15-891a-f1859695c118</parent_ui_id>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-01 15:39:30</sys_created_on>
-        <sys_id>bc80296ec3a99610c4cfbe3ed40131ac</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-11-01 19:13:03</sys_created_on>
+        <sys_id>c561deaac3ad9610c4cfbe3ed4013190</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
-        <ui_id>2084c92c-ef43-495a-a008-abd174ab5b21</ui_id>
-        <values>H4sIAAAAAAAA/+1Y227bOBD9FULPXke+23nLJgi2wLYFEqP70BQCRVI2t5Sopag43sD/vkORsqwokQ07vSyaR15meM7MOaTsz48ep965N6RTfxxGQzzxB/2B70/7s1k4mEX+dDLze4R6HS/BMYOdihGpzPgei9xMPD5eKoY1o0GvS3KlWKI3G1inPEsFXn9y22CGLLmgsO6df/7S8VKsIKNmyjt/fLKk1ykLBA6ZgMArSfIYkqJ3V5DjULRl9ByrBdPopkT9lIU5CsbUHRJwMwlLBpbf8diDZgllcGiERcY6XowTirVU6+0MkKcfE1FNLHmiIeVFlknCoTAZ0kuGWIy5QCuulwgje3zXM/keMv4vQBj0TaqIQRGIQcQTwikgKuomOWEfU81lYiupcSjKokqRx8kHS8uUnUU4F3qn7HnGAspSw8MA0yoHkNHtUq5uyvOueVIwdgyEJFhsR1hrxcMciBSdEgyrKl9QQDI54SQmWFHEGKcpTxZBquQ9LxIDzLi7EDDoRkKuID7ji6SLieHUhYri7jXMXxXTn7DihuB7SAPBm6IwwT+5wWQp1g83e4OisbA1I4qn+gIS3zNHYdNxKu/N2nRDh5U+dnJWSn8IeqPRtDfzA3ZvTu8Fii14phUuOtOQ/N79xxlibrChDxbbobxqwS/wdF6ozTkr9E6ywhz0r60RrfKRdjC28p/6dfm/uuwdoqN1/220DQ3MAitZx604fK/m9yndH4/DcByOJoNKETMS0UkYjfGEDCoFrOCGUjFWX4PihtqRe6+paOfzI3ULwWfXBb3OwSjL4HcJETll6K8SbhsDJ+RQSriskkrF/ZNUbJWItETQO7GGa3x7spmsLnm9xBrxDGXQri6aS8Qd+J2IDlrLHMV5pmGbhpWaP2ovw/B1reF66Gavnm3w/8I7p3pk1H5r4kpheBlo2f7J0y1av9mgpmn27D7OTLdQ32RRGukAKlsXyiYv55eszOnsMmi3i/2QaLhl50r3f9VLnTLBY1500VrqVK3S1gYzv9ZTQna0+opf4nXNHQCpDLy8bOJ7QXPD467oN9F9A9H1Wn9msXGtqeH3Ud0BmMrA35/ILmzT3ehNdz+N7kbtPSa1rmZ5+Dcjekd7N/ZHlkQXhiGmsinG57a8yju8H/k2cIv7OS4vqHT89iL/kE9F3NrXqF+/ZyRd78jxLvf9AUmRQfib5sk6JkxJqUMow9dikd55d3Ybu8QgSig6DqUCWaqOjQ4VOrMbno5vWY5UqeZEouKfBokiyeFXitW2DTlLbUDTDA7gdwRwnNX+mL//szTaAQ3ZPgO2HY3+OIstdSwqg01OfAbGo9Fg/EtaDPq4on2qZJo6bie9BV/+A85u/KqaFgAA</values>
+        <sys_updated_on>2024-11-01 20:31:01</sys_updated_on>
+        <ui_id>99c4df30-bdcc-434f-914f-36d9f57a82d3</ui_id>
+        <values>H4sIAAAAAAAA/+1Y227bOBD9FULPXkW+yXb2qZsgaIFtCyRG96EpBIqkbLaUqKWoOG7gf+m39Mt2KFGWFSeyYbu7WzSPHM4Mz8ycQ8r++OBw6pw7Azr2/DAa4JHX7/U9b9ybTML+JPLGo4nXJdTpOAmOGXgqRqQy6zsscmN4eLhQDGtGg65LcqVYolcr2Kc8SwVefrBuYCFzLijsO+cfP3WcFCvIqJlyzh8ebellygKBQyYg8FKSPIak6M0l5NgXbRU9xWrGNLquUD+uwhwFa2oPCbgxwpaB5XUcdq9ZQhkcGmGRsY4T44RiLdVybYHi6ftE1IY5TzSkfJVlknBoTIb0nCEWYy7Qgus5wqg83nVMvvuMfwUI/Z5JFTFoAjGIeEI4BURF3yQn7H2quUzKTmociqqpUuRx8q4sy7SdRTgXeqPtecYCylJThwGmVQ4go5u5XFxX513xpKjYViAkwWK9wlorHuZQSDEpwbCq8wUFJJMTTmKCFU2McZryZBakSt7xIjHAjN2ZgIUbCbmA+IzPEhcTU5MLHcXuFdgvC/MHrLgp8C2kgeBV0Zjg79xgKktsHm58g2Kw4JoRxVP9ChLfMVvCqmNZ3p208YYOan5s5KyZfh90h8Nxd+IF7M6c3g0Um/FMK1xMZovyO/0PE8TUYEPvSmz71tUIfqZOq4WGzUqhe5QUpsB/XQqxZD7SFsaa/mOvSf+T094iOpj3P4bbMMAsKClraysO38n5XUz3fD8M/XA46teMmJCIjsLIxyPSrxmwgBtKxVh9CYobaoPu3W1GW50fyFsIPrsqyuvsjbIKfpMQkVOG/qrgtlVgiRxKCZdVUrO4dxSLSyYiLRHMTizhGl+fbIz1Ja/nWCOeoQzG5aKpRNyC34jooKXMUZxnGtw07DT00XgZBqeVhp2htV4+OeCfQjvHamTYfmvimmF4HmjZ/snjFqNfrdC2aHZ4HyamG+hvMquEtEcpaxXK7bqsXrIqp5VLv10u5YfEllo2rnTvV73UKRM85sUUS0kdy1XaOmDmNWZKyAZXT/gl3uTcHpCqwIuLbXzPcG5w2BX9QrofQLpu688s5jeGGv47rNsDUxX4xyPahW28G77w7n/Du2H7jEljqlkefmZEb3DvuvyRJeFH/2fGNaZym41P+pzkJd6NfR24Rv5UNc/w1H95k/+Tj0XcOteo17xpJF1uEPI297w+SZFB+JvmyTImTEmpQ2jDl2KT3jq3pRu7wMBKaDoOpQJaqk4ZHSp0Vjo8Xt+wHKmKzolExX8N0uz1/CTM0t8jycHB0tzdla5cn6Xlals5tpiTgv3+7UiMhyn39fTtn5Vu95jv+l0pp7s1bqvYuY5FrdfRke+KPxz2/V9SsTDHBe1RJdPU1nbU4/LpHz/ZxQ/rFgAA</values>
     </sys_hub_action_instance_v2>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
@@ -371,21 +481,47 @@ inscrição/registro em um evento.</description>
         <display_text/>
         <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
         <generation_source/>
-        <order>2</order>
+        <order>3</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-01 15:39:30</sys_created_on>
         <sys_id>f880296ec3a99610c4cfbe3ed40131aa</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
+        <sys_updated_on>2024-11-01 21:18:16</sys_updated_on>
         <ui_id>5c8c29f7-77c0-4c1d-91aa-cdea4b0b6b60</ui_id>
-        <values>H4sIAAAAAAAA/+1XbW/aMBD+K1U+0ywQKC/fqiGmTdoqtVW/lCoy9gU8GSdzElqG8t93jp2QQpuiik5dtW/4Xp+7e844txuHM2fk9AdhB4bDjjdre57veYMe9QY+zPz+Wd8n1HNajiRLQEsFNFIMzysiMi3YbD4rICmwoO3STCmQaZ6jnvEkFmR9Y81QQhdcMNQ7o9u7lhMThRFTUM5os6NK1zEEgsxAoOM4otkSg558HWOMQ9GW3pcl3F34OgeemY0ecC1ElcbjtRx4SEEywGwhEQm0nCWRjKSRWjujVGUowKLZhRTrymLBZWoKXZKHhP/G8H5H24WAldGqCRGncBGnPJJGkpKZKJWRyJbyh4GqewghyURa62GWQMAg1th0NgMlvFpE95dlngmXRRUWlogoEdWJpKnisyyFRLcdBBTFL0kcczkPYhWteOGMUJbuXODBDUV0jzkTPpcuoRq3i50g7gTl40J8QxTXRXzHMOicF0UHvzKd15RhAQdFzaZgtEqo4nF6jjFXYBHmLcvIGW2cMd2O1ITbEvIhaPd6g/bQC2Clc7YDBXOepIoUPd9j5ov2r+PttYZ1UsyydXBJj5z3S7SkLY6BNKEtZ9vNnLWSQ0g78N6YtDb1P8balwjrtZumywbbaWI+RExEEHIQ9au0VOxztKZ5HRsnOtUjNh6At3Q+t9lPJhbwc4VYfhbHHX52jshP760Z+nGvVdo4dfC3w/0ZZUo2kDRY4B2pZ/csWWsWxyLtAfBL528G/y5nd8tqoKz/n7LvgbLdXuPM4Yn7iEaScY0vqRHX3GKQnMv1l9vNxguHzKOsf0q93tlpd9gfnJIuY/grJH3fpx70qWueiy5JdHFFg+YqyuI8v9un/dHjv25pqsv6MhOQlItzQBOrJ7P1a2yqXZtKqayTXZ3usV7Qf2FzPuZzhDYOPBxuB8wybAd+wNW/6aaOATl1RlNHRhKmTmvqaKtAT74QowWCqxSFbLPJcyPJzPN5ql+m2+PWm5F1UlgmdAEM2VNIH0kMpa38mJ+UVzbByRhxf7rmtf+Xl7tWfZdmxv/JRtr1qCoxneP1f5fe0f5duu99QzIeVA9YvPRx+THH+1qbuz8fF+etChEAAA==</values>
+        <values>H4sIAAAAAAAA/+1X32/aMBD+V5CfEQtQVuCtGkLapK0S7fpSqsg4F3BlnMxxaBnK/75z7IQU2hQhOm3dHn0/v7v7znFuN4QHZEjO+2EHBoOON2t7Xtfz+j3m9bsw655/PO9S5pEmkXQJaKmARSrA84qK1Ag2m08KqIbAb7dYqhRInWWoD3gSC7q+cWYoYQsuAtST4e1dk8RUYUQNigw3Oyq9jsEXdAYCHUcRS5cYtPF5hDEORVt4Twq4u/BNDjwHLrrPjRBVBo/XJPCoQQaA2UIqEmiSJZUB1ZFak6FWKQqw6OBSinVpseBS20KX9DHhPzF8t2PsQsDKWNmEiDO4jDWPpJVoOhOFMhLpUn6zUE0PIaSp0JUepgn4AcQGm8lmoYRXi+hhUuQZc5lX4WCJiFFRnqjWis9SDYlpOwjIi1/SOOZy7scqWvHcGaEsW3OBh1YoogfMmfC5bFFmcLewE7Q1RvkoF99QxU0RXzEMOmd50f6P1OS1ZTjAfl6zLRitEqZ4rC8w5gocwqzpGDljtTNm25HacFtCPvrtXq/fHng+rEzOtq9gzhOtaN7zPWa+an8cb68NrEY+y+bBJT1x3i/RkTY/+tKGdpxt13PWSQ4hbd97Y9K61H8Za18jrNeum27Q304T8yFiKvyQg6hepYVin6MVzXFsHJtUT9h4AN7C+cJlb4wd4JcKcfzMjzv87JyQn95bM/T9XqusdurQ3Q73PkqVrCGpv8A70szuRbJWLE5F2gPgF85fLP5dzu6WVUPZ7n/K/gmUPevVzhyeuY9YJANu8CUV4tpbDJIJ3APTyYVcf7995vHaoompBEU6yrK7fXofHee4JSgv30kqICkW4YCmlE9g51fbJLcGpVI5J7cKZ6d6Ef+GTXifzwtWO/BwsB1wkGI7kIvVf7QpsSCnZDglMpIwJc0pMVa+mXwuRgsEVypy2WaTZVaS2ufw1Lw0t8etd0DXSW6ZsAUEyJ5c+kRiKe3kp/xFvHIJGiPE/eGaV74Xr3et/M9Mrf+zjXTrUVZiO8erX4veyb4WZ//mhiBM7pcPXfw44KVy9Nrc/QKHjtL62hAAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=185519aec3699610c4cfbe3ed40131e0"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=185519aec3699610c4cfbe3ed40131e0^sys_idNOT INfc80296ec3a99610c4cfbe3ed40131ab"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=185519aec3699610c4cfbe3ed40131e0^sys_idNOT IN8d61deaac3ad9610c4cfbe3ed401318f,fc80296ec3a99610c4cfbe3ed40131ab"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4161deaac3ad9610c4cfbe3ed401318f</block>
+        <comment/>
+        <connected_to>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Registration">185519aec3699610c4cfbe3ed40131e0</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 19:13:03</sys_created_on>
+        <sys_id>8d61deaac3ad9610c4cfbe3ed401318f</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 21:18:16</sys_updated_on>
+        <ui_id>eceed59d-086e-4e15-891a-f1859695c118</ui_id>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <block display_value="">b080296ec3a99610c4cfbe3ed40131ab</block>
@@ -397,22 +533,124 @@ inscrição/registro em um evento.</description>
         <flow_variables_assigned/>
         <generation_source/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <parent_ui_id/>
         <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-01 15:39:30</sys_created_on>
         <sys_id>fc80296ec3a99610c4cfbe3ed40131ab</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-01 15:39:30</sys_updated_on>
+        <sys_updated_on>2024-11-01 21:18:16</sys_updated_on>
         <ui_id>0904a6c6-9ac1-4c3e-a14a-d97d0d729c8c</ui_id>
-        <values>H4sIAAAAAAAA/+VVy27bMBD8FYNnW6AkP2LfghYBij4MNEEubSCsyJVNlBJVkbLjGv6aHvoh+bEs9UiCxmmNIrferNnl7szuLLxnpnZl7eyVObdWrQq2+HIzZKrwGP3eMyXZgmUcsnAuQhFH0zjiPDobh+k0TsNIxoAQsyErIEfKFKaQyilTJA0wZBvQtQ9c4gDKymzg7tfdTzNYvqeYVLbUsLv+Q4pYKy0r7HiVUFFVhxVb7H8LuV2JiYYUta/kKlWs6Pmp7PuHb3r6gw8N8rIu349w23cylfS0Qj5keOuwkEitM9AWhyyHQoIz1e4BqRDkstCPwFoVjsoxn3xr1Q+qHU0mPjFD0iiwDYq1UQKXpWfSIg5S3QeNrvPiU0vYjxczqLXrx0tIbTGRWHp2vl3XO7tcm+3nvtGFKholXVAbAfrhCxzpTWuH1m8ANeZUKMmhLGkKiV+eah4TlzxYafoIMm221NSbKwDhiQc0DAguCH/bwNdQKa/iI5Whxy3NFKwSSWNEKucqknBoxpF8rz2hVmAnJWmnQQlWVKp059Rngx3rw7Bz8Rwm2STkk+M+GE+PbPuJgff7iTgT0TybjWYzwUdjEcrRPAQYCYkwTnk6Tac8IA3ewjqxDhweDl9rzmPZomSJZ6Z/rbKvcSgnDOjZoRwf2gvXEf3lOvyaTzwOzvl/eh3KJq3LO21N838+jhvv8LaDbQ0iUShLRK489q7/J/CBHW1aiafQ1lTfvIRH7HAPLr71EFMGAAA=</values>
+        <values>H4sIAAAAAAAA/+VUy27bMBD8FUNnW6Aky459C1oEKPow0AS5tIGwIlc2UUpUScqOa/hreuiH5Me61CMJGqctitx6E2eXO7O7Qx0C3bi6cfZKn1sr11Ww/HQzDmTlMfo+BBWUGCwDrishndRV1gLjYAuq8YFLHEFt9Bbuftx916PVW4oJaWsF++vfpPCNVMJgz1eDoaoOTbA8/BJy+xozBTkqX8kZWa3puhR0KhgU0YJHPIlnScxYfDaN8lmSR7FIACGhvOHiq0H+6F2LjJ/ty/MRbgcmbYSXFbFxgLcOK4FEXYCyOA5KqAQ4bfb3iEEQq0o9ABtZOSoX+ORbK79R7ThNfWKB1CPHLsg3WnJc1V5JhzjI1RDUqimrD51gP14soFFuGC8hjcVMYO3Vebqeu7jc6N3HgehCVm0nfVBpDur+BI76zRuH1m8AFZZUKCuhrmkKmV+ebC+TljJcKzqEhdI7IvWmCYF74SENA8ILwl+38DUY6bt4T2XociczByt51hqMyjlDLRzbcWRfGy+oa7BvJeumQQmWG1m7c+LZYq/6OH7qzkfGPBxSfsbjRTGfzOecTaY8EpNFBDDhAmGas3yWz1hI2rw1VWYdODwePzeMJaJDadVPzPxSZV/iASwgLdKIpacfwHR26gGcsP7zro//4Hq/vr80PWPsP3W9tFnn3r63lvyfTX/jHd4x2M4gArm0JOTKY2+GP7cP7GnTkj+Gdtp88S08YMeffwmr6wMGAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
-    <sys_hub_pill_compound action="delete_multiple" query="attached_to=185519aec3699610c4cfbe3ed40131e0"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=185519aec3699610c4cfbe3ed40131e0^sys_idNOT IN01f1aa22c321d610c4cfbe3ed40131e0,05f1aa22c321d610c4cfbe3ed40131df,4df1aa22c321d610c4cfbe3ed40131de,4df1aa22c321d610c4cfbe3ed40131df,89f1aa22c321d610c4cfbe3ed40131df,c5f1aa22c321d610c4cfbe3ed40131df"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>fbc656dc-e474-43c6-bffe-5aa9213100b4</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>01f1aa22c321d610c4cfbe3ed40131e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[{"id":"fbd73006c303201027d44077d840dd2b","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="subtract">eeb68171c303201027d44077d840dd57</transform_definition_id>
+        <ui_id>dbf68fd9-c8d4-4595-8f10-ddea3a71dec9</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>59c494bf-580c-4810-bb4a-2e1adcc4876e</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>05f1aa22c321d610c4cfbe3ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[{"id":"20872644c30320103a334077d840dde8","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="last_item">30672644c30320103a334077d840ddb6</transform_definition_id>
+        <ui_id>37751dcb-f420-4650-8386-ae30dfe7712d</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e5bff89c-5566-4afd-94df-4aa888483189.Record.seats}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>4df1aa22c321d610c4cfbe3ed40131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>59c494bf-580c-4810-bb4a-2e1adcc4876e</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e5bff89c-5566-4afd-94df-4aa888483189.Record.seats}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>4df1aa22c321d610c4cfbe3ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>fbc656dc-e474-43c6-bffe-5aa9213100b4</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>8d9de2ac-0dc2-4f1e-b08a-71c32e365d21</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>89f1aa22c321d610c4cfbe3ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[{"id":"fbd73006c303201027d44077d840dd2b","transformType":null,"transformDefinition":null,"order":0,"parameters":[{"id":null,"name":"number","label":"Number","order":0,"attributes":{},"value":"1","type":"int","defaultValue":"","typeLabel":null,"mandatory":true,"choices":[]}]}]</transform_compositions>
+        <transform_definition_id display_value="subtract">eeb68171c303201027d44077d840dd57</transform_definition_id>
+        <ui_id>33fbb2fd-c2c6-4170-96fb-145854de343a</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>185519aec3699610c4cfbe3ed40131e0</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{e5bff89c-5566-4afd-94df-4aa888483189.Record.seats}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-01 20:25:25</sys_created_on>
+        <sys_id>c5f1aa22c321d610c4cfbe3ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="Event Registration">8b96e23dc3a1d210c4cfbe3ed40131a7</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-01 20:25:25</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>8d9de2ac-0dc2-4f1e-b08a-71c32e365d21</ui_id>
+    </sys_hub_pill_compound>
     <sys_hub_flow_variable action="delete_multiple" query="model=185519aec3699610c4cfbe3ed40131e0"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_185519aec3699610c4cfbe3ed40131e0^sys_idNOT IN7936d9eec3699610c4cfbe3ed40131fc,7d36d9eec3699610c4cfbe3ed40131ff"/>
     <sys_documentation action="INSERT_OR_UPDATE">
